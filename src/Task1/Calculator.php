@@ -50,9 +50,13 @@ class Calculator
      * @param int $b The second number
      *
      * @return int The result of division
+     * @throws DivisionByZeroError
      */
     public function divide(int $a, int $b): int
     {
+        if ($b === 0) {
+            throw new \DivisionByZeroError('Division by zero error in Calculator!');
+        }
         return $a / $b;
     }
 }
