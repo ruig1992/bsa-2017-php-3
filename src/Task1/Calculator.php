@@ -69,6 +69,6 @@ class Calculator
      */
     public function pow2(int $exp): int
     {
-        return 2 ** $exp;
+        return 2 ** $exp; // or pow(2, $exp), ** operator - in PHP 5.6 onwards
     }
 }
