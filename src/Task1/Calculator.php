@@ -29,4 +29,17 @@ class Calculator
     {
         return $a - $b;
     }
+
+    /**
+     * Multiplication of two numbers
+     *
+     * @param int $a The first number
+     * @param int $b The second number
+     *
+     * @return int The result of multiplication
+     */
+    public function multiply(int $a, int $b): int
+    {
+        return $a * $b;
+    }
 }
