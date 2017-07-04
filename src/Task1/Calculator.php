@@ -42,4 +42,17 @@ class Calculator
     {
         return $a * $b;
     }
+
+    /**
+     * Division of two numbers
+     *
+     * @param int $a The first number
+     * @param int $b The second number
+     *
+     * @return int The result of division
+     */
+    public function divide(int $a, int $b): int
+    {
+        return $a / $b;
+    }
 }
