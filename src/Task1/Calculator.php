@@ -1,4 +1,4 @@
-<?php declare(strict_types = 1);
+<?php
 
 namespace BinaryStudioAcademy\Task1;
 
@@ -65,7 +65,7 @@ class Calculator
      *
      * @param int $exp The exponent
      *
-     * @return The result of raising
+     * @return int The result of raising
      */
     public function pow2(int $exp): int
     {
