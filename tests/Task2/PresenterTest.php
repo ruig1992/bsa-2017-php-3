@@ -45,7 +45,28 @@ class PresenterTest extends TestCase
 
     private function createRepository(array $users): Repository
     {
-        // TODO: put your implementation here
-        return null;
+        return new class($users) implements Repository {
+
+            /**
+             * Repository data
+             * @var array
+             */
+            private $data = [];
+
+            public function __construct(array $data)
+            {
+                $this->data = $data;
+            }
+
+            /**
+             * Get all data from Repository
+             *
+             * @return array
+             */
+            public function getAll(): array
+            {
+                return $this->data;
+            }
+        };
     }
 }
