@@ -59,4 +59,16 @@ class Calculator
         }
         return $a / $b;
     }
+
+    /**
+     * Raising 2 to the exponent power
+     *
+     * @param int $exp The exponent
+     *
+     * @return The result of raising
+     */
+    public function pow2(int $exp): int
+    {
+        return 2 ** $exp;
+    }
 }
