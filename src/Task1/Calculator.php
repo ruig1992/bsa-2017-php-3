@@ -5,7 +5,7 @@ namespace BinaryStudioAcademy\Task1;
 class Calculator
 {
     /**
-     * Addition of two numbers
+     * Addition of two integer numbers
      *
      * @param int $a The first number
      * @param int $b The second number
@@ -18,7 +18,7 @@ class Calculator
     }
 
     /**
-     * Subtraction of two numbers
+     * Subtraction of two integer numbers
      *
      * @param int $a The first number
      * @param int $b The second number
@@ -31,7 +31,7 @@ class Calculator
     }
 
     /**
-     * Multiplication of two numbers
+     * Multiplication of two integer numbers
      *
      * @param int $a The first number
      * @param int $b The second number
@@ -44,7 +44,7 @@ class Calculator
     }
 
     /**
-     * Division of two numbers
+     * Division of two integer numbers
      *
      * @param int $a The first number
      * @param int $b The second number
@@ -57,7 +57,7 @@ class Calculator
     }
 
     /**
-     * Raising 2 to the exponent power
+     * Raising 2 to the integer exponent power
      *
      * @param int $exp The exponent
      *
